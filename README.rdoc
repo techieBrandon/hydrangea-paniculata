@@ -1,4 +1,4 @@
-{<img src="https://travis-ci.org/techieBrandon/hydrangea-paniculata.png" />}[https://travis-ci.org/techieBrandon/hydrangea-paniculata]
+{<img src="https://travis-ci.org/techieBrandon/hydrangea-paniculata.png?branch=master" alt="Build Status" />}[https://travis-ci.org/techieBrandon/hydrangea-paniculata]
 
 
 hydrangea-paniculata
