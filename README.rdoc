@@ -1,8 +1,8 @@
 {<img src="https://travis-ci.org/techieBrandon/hydrangea-paniculata.png?branch=master" alt="Build Status" />}[https://travis-ci.org/techieBrandon/hydrangea-paniculata]
 
 
-hydrangea-paniculata
-====================
+=hydrangea-paniculata
+
 General build steps:
 
     npm install
