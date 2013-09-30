@@ -5,6 +5,5 @@ node_js:
   - "0.8"
   - "0.6"
 
-"scripts": {
-  "test": "grunt jasmine"
-}
+script: "grunt jasmine"
+
