@@ -1,0 +1,7 @@
+*.un~
+*.swp
+.grunt
+node_modules
+lib
+spec/js
+_SpecRunner.html
