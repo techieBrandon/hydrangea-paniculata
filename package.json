@@ -9,8 +9,12 @@
     "url": "https://github.com:techieBrandon/hydrangea-paniculata.git"
   },
   "dependencies":{
-    "jasmine-node": "1.11.0"
-    "gruntjs": "0.4.1"
+    "jasmine-node": "1.11.0",
+    "gruntjs": "0.4.1",
+    "grunt-contrib-coffee": "0.7.0",
+    "grunt-contrib-jasmine": "0.5.2",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-template-jasmine-requirejs": "0.1.6"
   },
   "engines": {
     "node": "*"
