@@ -3,5 +3,13 @@
 
 hydrangea-paniculata
 ====================
+General build steps:
 
-npm install -g grunt-cli
+    npm install
+    npm install -g grunt-cli
+    grunt coffee
+    grunt jasmine
+    
+Dev-time CI:
+
+    grunt watch
