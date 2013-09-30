@@ -2,8 +2,12 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-jasmine'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-jsonlint'
 
   gruntConfig =
+    jsonlint:
+      npm:
+        src: 'package.json'
     coffee:
       hydrangea:
         files: [
@@ -31,6 +35,9 @@ module.exports = (grunt) ->
           specs: ['spec/**/*.js']
           keepRunner: true
     watch:
+      npm:
+        files: '<%= jsonlint.npm.src %>'
+        tasks: ['jsonlint:npm']
       src:
         files: 'src/**/*.coffee'
         tasks: ['coffee:hydrangea']
